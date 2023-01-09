@@ -11,10 +11,8 @@ import Seds from './pages/Seds';
 
 const RoutesFile = () => {
   return (
-    <Routes> {
-    /* The Switch decides which component to show based on the current URL.*/}
-    
-      <Route exact path='/seds' element={<Seds/>}></Route>
+    <Routes>
+      <Route exact path={'/seds'} element={<Seds/>}/>
       <Route exact path='/rover' element={<Rover/>}></Route>
       <Route exact path='/rocketry' element={<Rocketry/>}></Route>
       <Route exact path='/cosmothon' element={<Cosmothon/>}></Route>
