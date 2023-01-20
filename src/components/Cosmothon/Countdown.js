@@ -1,6 +1,5 @@
 import React, { PropTypes, Component } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import { Collection } from 'react-bootstrap-icons';
 
 class Countdown extends Component {
   constructor(props) {
